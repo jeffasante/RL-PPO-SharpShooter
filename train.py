@@ -14,7 +14,6 @@ import time
 
 import pygame
 
-# Import your ShooterEnv
 from shooter_env import ShooterEnv
 from ppo_agent import PPO
 
@@ -84,7 +83,6 @@ def train(env, ppo_agent, num_episodes, save_freq=100):
 
 
 # Main execution
-# Main executionx
 if __name__ == "__main__":
     # env = ShooterEnv()  # Create the environment
     env = ShooterEnv(speed_multiplier=2, skip_frames=2) # Add desired speed and frame skip settings
