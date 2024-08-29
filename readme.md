@@ -179,6 +179,11 @@ while not done:
     env.render()
 ```
 
+ **Run inference:**
+   ```bash
+   python evaluate.py 
+   ```
+
 ## Customization
 
 - **Modify `ShooterEnv` Parameters:** Customize the game difficulty by adjusting player and CPU health, bullet speed, etc.
